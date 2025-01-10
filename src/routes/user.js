@@ -3,7 +3,7 @@ const userRouter = Router();
 
 userRouter.post("/signup",(req,res)=>{
     res.json({
-        message:"Signpu Enpoint"
+        message:"Signup Enpoint"
     })
 })
 
