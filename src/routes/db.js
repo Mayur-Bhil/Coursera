@@ -19,13 +19,13 @@ const UserSchema =new Schema({
     firstName:{
         type:String,
         required:true,
-        minLength:4,    
+        minLength:2,    
         maxLength:8
     },
     lastName:{
         type:String,
         required:true,
-        minLength:4,    
+        minLength:2,    
         maxLength:8
     }
 })

@@ -1,6 +1,6 @@
 const {Router} = require("express")
 const courseRouter = Router();
-const {Course} = require("../db");
+const {Course} = require("./db");
 
 //User ke current Courses
  courseRouter.get("/purchases",(req,res)=>{
